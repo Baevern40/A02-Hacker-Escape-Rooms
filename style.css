@@ -114,6 +114,23 @@ body {
   gap: 2em;
   z-index: 11;
   box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+
+  animation: tone-in 0.1s;
+
+}
+
+@keyframes tone-in {
+  0% {
+    opacity: 0;
+    top: 1.5em;
+    bottom: 1.5em;
+    right: 1.5em;
+    left: 1.5em;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .banner img {
