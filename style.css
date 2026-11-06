@@ -38,15 +38,13 @@ body {
   display: none;
 }
 
-.header-nav a,
-.header-nav-mobile a {
+.header-nav a {
   color: white;
   text-decoration: none;
   font-size: 0.9em;
 }
 
-.header-nav a:hover,
-.header-nav-mobile a:hover {
+.header-nav a:hover {
   color: #8ACFE5;
 }
 
@@ -83,15 +81,7 @@ body {
   transform: translateY(-12.5px) rotate(-45deg);
 }
 
-#nav-menu {
-  display: none;
-}
-
-#nav-menu.active {
-  display: flex;
-}
-
-.modal {
+.modal.active {
   position: fixed;
   inset: 0;
   background-color: rgba(210, 207, 207, 0.4);
@@ -99,7 +89,7 @@ body {
   display: flex;
 }
 
-.header-nav-mobile {
+.header-nav.active {
   background-color: #011827;
   font-weight: bold;
   position: fixed;
